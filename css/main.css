@@ -46,6 +46,7 @@ div.container {
 h2, .quote {
   margin: 0px auto;
   text-align: center;
+  padding-bottom: 10px;
 }
 #splash {
   position: relative;
@@ -56,7 +57,7 @@ img.full-size .image {
 }
 div.welcome {
   position: absolute; 
-  top: 40%;
+  top: 30%;
   width: 100%; 
   margin: 0px auto;
   text-align: center;
@@ -66,9 +67,14 @@ div.welcome {
   color: #FFFFFF;
   text-align: center;
   padding: 5px;
+  padding-top: 40px;
+}
+.col-xs-12 {
+  padding: 12px;
+  font-size: 18px;
 }
 .row {
-  padding-bottom: 10px;
+  padding-bottom: 40px;
   padding-top:10px;
 }
 #markets {
@@ -80,16 +86,19 @@ div.welcome {
 #map-container { 
   height: 380px; 
   width: 90%;
+  margin-top: 20px;
   margin-bottom: 20px;
   left: 5%;
   right: 5%;
 }
 .tab-content {
   background-color: #F9BA32;
-  padding: 2%;
+  padding: 30px;
+  padding-bottom: 40px;
 }
 ul {
   list-style-type: none;
+  font-size: 18px;
 }
 #inventory {
   background-color: #F9BA32;
@@ -103,10 +112,12 @@ ul {
 }
 #about {
  background-color: #769346; 
+ padding-top: 45px;
+ padding-bottom: 25px;
 }
 #farms {
   text-align: center;
-  padding: 4%;
+  padding: 2%;
   font-size: 18px;
 }
 p.quote {
@@ -154,6 +165,9 @@ footer {
   padding: 20px;
   text-align: center;
 }
+#contact {
+  display: inline-block;
+}
 
 /* The resolution breakpoints we will use for these four sizes are the default Bootstrap breakpoints:
 
@@ -170,7 +184,7 @@ Large (lg): 1200px or more wide (televisions, large desktops, etc.) */
   .jumbotron {
     width: 450px;
   }
-   img {
+   img.full-size {
     width: 450px;
   }
     footer {
@@ -184,7 +198,7 @@ Large (lg): 1200px or more wide (televisions, large desktops, etc.) */
   .jumbotron {
     width: 100%;
   }
-    img {
+    img.fullsize {
     width: 100%;
   }
     footer {
@@ -198,7 +212,7 @@ Large (lg): 1200px or more wide (televisions, large desktops, etc.) */
   .jumbotron {
     width: 100%;
   }
-    img {
+    img.full-size {
     width: 100%;
   }
     footer {
@@ -212,7 +226,7 @@ Large (lg): 1200px or more wide (televisions, large desktops, etc.) */
   .jumbotron {
     width: 100%;
   }
-    img {
+    img.full-size {
     width: 100%;
   }
     footer {
@@ -228,7 +242,7 @@ Large (lg): 1200px or more wide (televisions, large desktops, etc.) */
     width: 1198px;
     margin: 0px auto;
   }
-    img {
+    img.full-size {
     width: 1198px;
   }
     footer {
